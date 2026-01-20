@@ -59,41 +59,6 @@ Edit config/koneksi.php with your database credentials:
 1. Copy the project folder to 'htdocs' (XAMPP) or 'www' (WAMP)
 2. Start Apache and MySQL services
 3. Access via: http://localhost/tagihan-listrik/
-📁 Project Structure
-tagihan-listrik/
-│
-├── config/
-│   └── koneksi.php           # Database configuration
-│
-├── auth/
-│   ├── login.php             # Login page
-│   ├── proses_login.php      # Login processing
-│   └── logout.php            # Logout script
-│
-├── admin/
-│   ├── dashboard.php         # Admin dashboard
-│   ├── konsumen.php          # Customer management
-│   ├── pemakaian.php         # Electricity usage recording
-│   ├── tagihan.php           # Billing management
-│   ├── feedback.php          # Feedback management
-│   └── sidebar.php           # Admin sidebar
-│
-├── konsumen/
-│   ├── beranda.php           # Customer dashboard
-│   ├── tagihan.php           # Customer bills view
-│   ├── riwayat.php           # Payment history
-│   ├── feedback.php          # Feedback submission
-│   └── sidebar_konsumen.php  # Customer sidebar
-│
-├── assets/
-│   ├── css/
-│   │   └── style.css         # Main stylesheet
-│   ├── js/
-│   │   └── script.js         # JavaScript functions
-│   └── img/                  # Images directory
-│
-├── index.php                 # Main login page
-└── db_tagihan_listrik.sql    # Database schema
 
 💡 Usage Guide
 For Administrators
